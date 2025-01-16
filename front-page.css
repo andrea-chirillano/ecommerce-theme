@@ -1,0 +1,62 @@
+.background-hero{
+    padding: 50px;
+}
+
+body{
+    margin: 0px;
+    margin-top: -20px !important;
+}
+
+hr{
+    display: none;
+}
+
+h2, h1{
+    font-family: 'Calistoga', display;
+    font-weight: 400;
+    font-style: normal;
+}
+
+section {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s ease-out;
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#header{
+    background-color: black;
+    min-height:50px;
+}
+
+#header a{
+    color: white !important;
+    text-decoration: none;
+    color: inherit;
+    padding-left: 50px;
+}
+
+h1:not(#header h1) {
+    display: none;
+}
+
+p, .wp-element-button{
+    font-family: 'Geologica', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.wp-element-button{
+    background-color: white;
+    color: black;
+}
