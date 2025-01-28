@@ -12,4 +12,8 @@ else : ?>
 endif;
 
 get_footer(); 
+
+my_custom_home_top_sellers() 
 ?>
+
+
